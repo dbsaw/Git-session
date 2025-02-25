@@ -34,7 +34,7 @@
         // Function to fetch and update names
         function fetchNames() {
             // Fetch the names.txt file from the repository
-            fetch('https://raw.githubusercontent.com/AliOmar04/RepoTest/refs/heads/main/Names.txt' + new Date().getTime())
+            fetch('https://raw.githubusercontent.com/AliOmar04/RepoTest/refs/heads/main/Names.txt')
                 .then(response => response.text())
                 .then(data => {
                     // Update the webpage with the new content
